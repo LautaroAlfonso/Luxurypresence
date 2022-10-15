@@ -1,0 +1,578 @@
+*/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+
+body {
+	background-color: white;
+	position:absolute;
+  width: 100%;
+	display: grid;
+  grid-template-areas: "header header header"
+                     "main main main"
+                     "section section section"
+                     "aside aside aside"
+                     "footer footer footer"; 
+                     
+
+}
+
+
+
+header {
+	grid-area: header;
+	margin: 10px;
+
+}
+
+main{
+	grid-area: main;
+
+
+}
+
+aside {
+	grid-area: aside;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+section{
+	grid-area: section;
+
+}
+
+footer {
+	grid-area: footer;
+	background-color: lightgrey;
+}
+
+
+h1 {
+	font-size: 70px;
+	background-color: #213e72;
+	font-family: 'Source Serif 4', serif;;
+	display: flex;
+    color: whitesmoke;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 25px;
+	box-shadow: 4px 4px 3px lightgrey;
+
+
+	
+}
+
+.logoimg{
+width: 400px;
+height: 400px;
+}
+
+
+
+  h2 {
+	font-size: 30px;
+	font-family: 'Source Serif 4', serif;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 80px;
+	padding: 25px;
+	box-shadow: 4px 4px 3px lightgrey;
+
+
+
+}
+
+header{background-color: white;
+	}
+ 
+
+.logo {
+	width: 70px;
+	height: 70px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 60px;
+}
+
+
+.gbanner{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.navegador {
+	display: inline-flex;
+    justify-content: center;
+	padding-left: 10px;
+	margin: 20px;
+	font-family: 'Source Serif 4', serif;
+    color: #213e72;
+
+}
+.header__contenedor{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+	list-style: none;
+	margin-left: 25px;
+	padding: 25px 0;
+	float: left;
+	position: relative;
+
+
+}
+
+nav ul li a {
+text-decoration:none ;
+	color: black;
+	outline-width: 5px;
+	list-style: none;
+	
+}
+
+nav ul li a:hover {
+text-decoration:overline ;
+	color: grey;
+	outline-width: 5px;
+	list-style: none;
+	
+}
+
+
+
+.boxmodeling{ 
+display: inline-block; }
+
+.foto1{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+.texto1 {
+	color: #213e72;
+	font-size: 30px;
+}
+
+div p {
+	color: #213e72;
+	font-size: 20px;
+	font-family: 'Source Serif 4', serif;;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	border-bottom: 2px solid grey;
+
+}
+
+
+
+.imgint{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.imgint1{
+    
+        width: 1000px;
+        height: 400px;
+    
+    
+}
+
+.imgaside{
+    width: 600px;
+    height: 400px;
+}
+.seccion__intermedia{
+    display: flex;
+    justify-content: space-around;
+}
+.copy {
+	color: grey;
+	font-size: 15px;
+	font-family: 'Source Serif 4', serif;;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	border-bottom: 0;
+
+
+}
+
+.texto1 {
+margin: 5px;
+padding: 5px;
+width: 1050px;
+overflow: auto;
+font-family:'Source Serif 4', serif;;
+font-size: 25px;
+color: #213e72;
+margin-left: 20px;
+margin-bottom: 100px;
+margin-top: 100px;
+border-bottom: 0;
+}
+
+
+
+p b {
+	font-family: 'Source Serif 4', serif;;
+	color: black;
+	font-size:40px;
+	text-shadow: 25px 10px 8px #213e72;
+	padding: 50px 20px 20px 20px;
+
+
+
+
+}
+.img-tamano {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 20px;
+
+}
+.img-tamano:hover {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px lightgrey;
+
+}
+
+.vermasnuevo{
+    color: #213e72;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	font-size: 20px;
+	margin-bottom: 70px;
+	margin-top: 15px;
+	font-family: 'Source Serif 4', serif;;
+}
+
+div a  {
+	text-decoration:none ;
+	color: black;
+	outline-width: 5px;
+	list-style: none;
+}
+div a:hover {
+	text-decoration:overline ;
+	color: grey;
+	outline-width: 5px;
+	list-style: none;
+}
+
+
+.header__contenedor {
+	display: flex;
+	
+}
+
+.imagenprimera {
+	display: flex;
+	justify-content: center;
+
+}
+  .seccion__primera { 
+  display: flex;
+  justify-content: center;
+   }
+
+   
+
+
+.seccion__intermedia {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.seccion__intermedia--2{
+	margin-left: 50px;
+
+}
+.seccion__segunda {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+.imgprod {
+	position: relative;
+	height:260px ;
+	width: 260px;
+	margin-left: 50px;
+	margin-right: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.imgprod:hover {
+	position: relative;
+	height:260px ;
+	width: 260px;
+	margin-left: 50px;
+	margin-right: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+
+}
+
+footer {
+	background-color: whitesmoke;
+	margin-top: 100px;
+}
+
+.footer__seccion {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.logoimg {
+	width: 50px;
+	height: 50px;
+}
+
+
+.card{
+	width: 330px;
+	height: 438px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+  
+}
+
+.card:hover{
+	transform: translate(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+	
+}
+
+
+
+
+.cont {
+	border-bottom: none;
+}
+
+h3{
+	font-family:  'Source Serif 4', serif;;
+	color: #213e72;
+	text-align: center;
+
+}
+h4{
+	font-family: 'Source Serif 4', serif;;
+	color: #213e72;
+
+}
+h5{
+	font-family: 'Source Serif 4', serif;;
+color: #213e72;}
+
+
+
+
+.imagenwpp {
+height: 300px;
+width: 300px;
+font-family:  'Source Serif 4', serif;;
+	
+}
+
+.imgmail {
+	height: 200px;
+width: 270px;
+font-family:  'Source Serif 4', serif;;
+
+}
+.imginstagram {
+	height: 200px;
+width: 270px;
+font-family:  'Source Serif 4', serif;;
+
+}
+
+
+
+
+
+
+
+
+	
+
+@media screen and (max-width: 768px){
+	.texto1{
+		text-align: left;
+	}
+	.foto1{
+	width: 90%;
+	}
+
+	nav{
+		display: flex;
+		justify-content: center;
+	}
+
+
+}
+
+
+
+@media screen and (min-width: 480px) and(max-width: 768px){
+	.kidscard{
+		display: flex;
+		justify-content: center;
+	}
+
+	.productos--div{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:320px){
+	
+	
+	nav{
+		display: flex;
+		justify-content: center;
+	}
+	.productos--div{
+		width: 100%;
+	}
+
+}
+.imgprod {
+	position: relative;
+	height:260px ;
+	width: 260px;
+	margin-left: 50px;
+	margin-right: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.imgprod:hover {
+	position: relative;
+	height:260px ;
+	width: 260px;
+	margin-left: 50px;
+	margin-right: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+
+}
+.productos {
+	display: flex;
+	position: relative;
+	flex-flow: row wrap;
+	margin-left: 50px;
+  
+}
+
+.productos--div{
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 330px;
+	height: 438px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.productos--div:hover{
+	transform: translate(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
